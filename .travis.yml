@@ -1,0 +1,4 @@
+before_script:
+  - sudo apt-get install avahi-discover avahi-utils
+
+script: "bash -x ./run.sh"
